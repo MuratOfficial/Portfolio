@@ -145,5 +145,16 @@
 .grid-item { width: 200px; }
 .grid-item--width2 { width: 400px; }
 
+.expandable {
+  background: #fff;
+  overflow: hidden;
+  color: #000;
+  line-height: 50px;
 
+  transition: all .5s ease-in-out;
+  height: 0;
+ }
 
+ .expandable:target {
+  height: 50px;
+}
