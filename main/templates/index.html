@@ -1,4 +1,4 @@
-{% load static cache %}
+{% load static cache i18n %}
 
 <!doctype html>
 <html>
@@ -43,21 +43,21 @@
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
               <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-              Light
+              {% translate 'Light' %}
               <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
             </button>
           </li>
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
               <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-              Dark
+              {% translate 'Dark' %}
               <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
             </button>
           </li>
           <li>
             <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
               <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
-              Auto
+              {% translate 'Auto' %}
               <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
             </button>
           </li>
@@ -67,10 +67,10 @@
   <div class="container">
     <header class="d-flex justify-content-center py-3 ">
       <ul class="nav nav-pills">
-        <li class="nav-item text-lowercase font-monospace"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item text-lowercase font-monospace"><a href="#expertise" class="nav-link">Expertise</a></li>
-        <li class="nav-item text-lowercase font-monospace"><a href="#projects" class="nav-link">Projects</a></li>
-        <li class="nav-item text-lowercase font-monospace"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item text-lowercase font-monospace"><a href="#home" class="nav-link active" aria-current="page">{% translate 'Home' %}</a></li>
+        <li class="nav-item text-lowercase font-monospace"><a href="#expertise" class="nav-link">{% translate 'Expertise' %}</a></li>
+        <li class="nav-item text-lowercase font-monospace"><a href="#projects" class="nav-link">{% translate 'Projects' %}</a></li>
+        <li class="nav-item text-lowercase font-monospace"><a href="#contacts" class="nav-link">{% translate 'Contacts' %}</a></li>
       </ul>
     </header>
   </div>
@@ -78,9 +78,9 @@
   <main>
     <!-- Home section -->
       <div class="vh-100 px-4 py-5 my-5 text-center" id="home">
-        <h1 class="display-6 fw-bold text-body-emphasis text-uppercase main-text " style="font-size:7rem">Murat Toimet</h1>
+        <h1 class="display-6 fw-bold text-body-emphasis text-uppercase main-text " style="font-size:7rem">{% translate 'Murat Toimet' %}</h1>
         <div class="col-lg-6 mx-auto text-uppercase font-monospace">
-          <p class="lead mb-4 fs-2">Web Developer, Data Analyst & CMS Manager</p>
+          <p class="lead mb-4 fs-2">{% translate 'Web Developer, Data Analyst & CMS Manager' %}</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <a href="#expertise" ><img src="{% static '/assets/bootstrap-icons-1.10.5/arrow-down-square.svg' %}" alt="arrow-down" width="32" height="32"></a>
           </div>
@@ -88,15 +88,15 @@
       </div>
 
     <!-- Expertise block -->
-      <div class="container vh-100 px-4 py-5 mb-4" id="custom-cards">
-        <h2 class="pb-2 border-bottom text-center display-4 fw-bold">Expertise</h2>
+      <div class="container vh-100 px-4 py-5 mb-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom text-center display-4 fw-bold">{% translate 'Expertise' %}</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" id="expertise">
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" >
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-1 mt-1 mb-4 display-6 lh-1 fw-bold text-center">FrontEnd Developer</h3>
-                <p class="text-center fs-4 font-monospace">/..worked with ReactJS, Tailwind CSS and Bootstrap5../</p>
+                <h3 class="pt-1 mt-1 mb-4 display-6 lh-1 fw-bold text-center">{% translate 'FrontEnd Developer' %}</h3>
+                <p class="text-center fs-4 font-monospace">{% translate '/..worked with ReactJS, Tailwind CSS and Bootstrap5../' %}</p>
               </div>
             </div>
           </div>
@@ -104,8 +104,9 @@
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-1 mt-1 mb-4 display-6 lh-1 fw-bold text-center">BackEnd Developer</h3>
-                <p class="text-center fs-4 font-monospace">/..have experience of working with Python Django, DRF, Celery, PostgreSQL, Docker../</p>
+                <h3 class="pt-1 mt-1 mb-4 display-6 lh-1 fw-bold text-center">{% translate 'BackEnd Developer' %}</h3>
+                <p class="text-center fs-4 font-monospace">{% translate '/..have experience of working with Python Django, DRF,
+                  Celery, PostgreSQL, Docker../' %}</p>
               </div>
             </div>
           </div>
@@ -113,8 +114,9 @@
           <div class="col">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-1 mt-1 mb-4 display-6 lh-1 fw-bold text-center">Data Analyst</h3>
-                <p class="text-center fs-4 font-monospace">/..did study projects with Numpy, panda library, D3 Data Visualization, SQL, Power BI../</p>
+                <h3 class="pt-1 mt-1 mb-4 display-6 lh-1 fw-bold text-center">{% translate 'Data Analyst' %}</h3>
+                <p class="text-center fs-4 font-monospace">{% translate '/..did study projects with Numpy, panda library, D3 Data
+                  Visualization, SQL, Power BI../' %}</p>
               </div>
             </div>
           </div>
@@ -124,9 +126,11 @@
   <!-- Projects block -->
     <div class="bg-dark text-secondary px-4 py-5 text-center" id="projects">
       <div class="py-5">
-        <h1 class="display-4 fw-bold text-white">My projects</h1>
+        <h1 class="display-4 fw-bold text-white">{% translate 'My projects' %}</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="fs-5 mb-4 font-monospace">/..my working experience starts by making Commercial and Business projects as a Business Analyst, UI/UX Designer and Product Manager. After that I made a lot of solo projects on Fiver, Upwork and for small commercial companies as a FullStack Developer. There are some of them../</p>
+          <p class="fs-5 mb-4 font-monospace">{% translate '/..my working experience starts by making Commercial and Business
+            projects as a Business Analyst, UI/UX Designer and Product Manager. After that I made a lot of solo projects
+            on Fiver, Upwork and for small commercial companies as a FullStack Developer. There are some of them../' %}</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <a href="#masonry"><button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">slide down</button></a>
           </div>
@@ -158,11 +162,11 @@
 
     <!-- Contacts block -->
     <div class="container px-4 py-5 vh-100" id="contacts">
-      <h2 class="pb-2 border-bottom text-center display-4 fw-bold">Contacts</h2>
+      <h2 class="pb-2 border-bottom text-center display-4 fw-bold">{% translate 'Contacts' %}</h2>
 
       <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
         <div class="col d-flex flex-column align-items-start gap-2">
-          <h2 class="fw-bold text-body-emphasis">If you interested in for more about my works you can touch with me by these..✍️🤙</h2>
+          <h2 class="fw-bold text-body-emphasis">{% translate 'If you interested in for more about my works you can touch with me by these..' %}✍️🤙</h2>
           <a href="mailto:toimetm@gmail.com" class="btn btn-primary btn-lg ">toimetm@gmail.com</a>
         </div>
 
@@ -173,7 +177,7 @@
                 <a href="https://www.instagram.com/official_murattoimet/"><img src="{% static '/assets/bootstrap-icons-1.10.5/instagram.svg' %}" alt="instagram" width="32" height="32"></a>
               </div>
               <h4 class="fw-semibold mb-0 text-body-emphasis">instagram</h4>
-              <p class="text-body-secondary font-monospace">/..about my latest news, stories../</p>
+              <p class="text-body-secondary font-monospace">{% translate '/..about my latest news, stories../' %}</p>
             </div>
 
             <div class="col d-flex flex-column gap-2">
@@ -181,7 +185,7 @@
                 <a href="https://github.com/MuratOfficial"><img src="{% static '/assets/bootstrap-icons-1.10.5/github.svg' %}" alt="github" width="32" height="32"></a>
               </div>
               <h4 class="fw-semibold mb-0 text-body-emphasis">github</h4>
-              <p class="text-body-secondary font-monospace">/..my latest works, reviews, codes../</p>
+              <p class="text-body-secondary font-monospace">{% translate '/..my latest works, reviews, codes../' %}</p>
             </div>
 
             <div class="col d-flex flex-column gap-2">
@@ -189,7 +193,7 @@
                 <a href="https://www.linkedin.com/in/toimetm/"><img src="{% static '/assets/bootstrap-icons-1.10.5/linkedin.svg' %}" alt="linkedin" width="32" height="32"></a>
               </div>
               <h4 class="fw-semibold mb-0 text-body-emphasis">linkenIn</h4>
-              <p class="text-body-secondary font-monospace">/..my career, my working and study history and certificates../</p>
+              <p class="text-body-secondary font-monospace">{% translate '/..my career, my working and study history and certificates../' %}</p>
             </div>
 
             <div class="col d-flex flex-column gap-2">
@@ -197,7 +201,7 @@
                 <a href="https://t.me/Murat_Toimet/"><img src="{% static '/assets/bootstrap-icons-1.10.5/telegram.svg' %}" alt="telegram" width="32" height="32"></a>
               </div>
               <h4 class="fw-semibold mb-0 text-body-emphasis">telegram</h4>
-              <p class="text-body-secondary font-monospace">/..for private, for chosen ones🌟../</p>
+              <p class="text-body-secondary font-monospace">{% translate '/..for private, for chosen ones' %}🌟../</p>
           </div>
         </div>
       </div>
@@ -208,10 +212,10 @@
     <div class="row">
       <div class="col-12 col-md">
         <p class="d-block mb-2">🐋</p>
-        <small class="d-block mb-3 text-body-secondary">&copy; 2017–2023 Murat Toimet. All rights reserved</small>
+        <small class="d-block mb-3 text-body-secondary">&copy; 2017–2023 Murat Toimet. {% translate 'All rights reserved' %}</small>
       </div>
       <div class="col-6 col-md">
-        <h5>📚projects</h5>
+        <h5>📚{% translate 'projects' %}</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary text-decoration-none font-monospace" href="#">music player</a></li>
           <li><a class="link-secondary text-decoration-none font-monospace" href="#">chat app</a></li>
@@ -220,7 +224,7 @@
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>💎resources</h5>
+        <h5>💎{% translate 'resources' %}</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary text-decoration-none font-monospace" href="https://www.python.org/">python</a></li>
           <li><a class="link-secondary text-decoration-none font-monospace" href="https://www.djangoproject.com/">django</a></li>
@@ -229,7 +233,7 @@
         </ul>
       </div>
       <div class="col-6 col-md">
-        <h5>🙋‍♂️about</h5>
+        <h5>🙋‍♂️{% translate 'about' %}</h5>
         <ul class="list-unstyled text-small">
           <li><a class="link-secondary text-decoration-none font-monospace" href="{% static 'assets/Toimet Murat Bakhytzhanuly (CV, Resume).pdf' %}" download>cv</a></li>
           <li><a class="link-secondary text-decoration-none font-monospace" href="#">blog</a></li>
