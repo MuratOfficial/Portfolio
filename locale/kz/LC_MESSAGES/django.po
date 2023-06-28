@@ -18,31 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .\main\templates\index.html:46
-msgid "Light"
+msgid "Ашық"
 msgstr ""
 
 #: .\main\templates\index.html:53
-msgid "Dark"
+msgid "Түң"
 msgstr ""
 
 #: .\main\templates\index.html:60
-msgid "Auto"
+msgid "Авто"
 msgstr ""
 
 #: .\main\templates\index.html:70
-msgid "Home"
+msgid "Бастапқы"
 msgstr ""
 
 #: .\main\templates\index.html:71 .\main\templates\index.html:92
-msgid "Expertise"
+msgid "Қабілет"
 msgstr ""
 
 #: .\main\templates\index.html:72
-msgid "Projects"
+msgid "Жобалар"
 msgstr ""
 
 #: .\main\templates\index.html:73 .\main\templates\index.html:165
-msgid "Contacts"
+msgid "Байланыс"
 msgstr ""
 
 #: .\main\templates\index.html:81
@@ -50,62 +50,74 @@ msgid "Murat Toimet"
 msgstr ""
 
 #: .\main\templates\index.html:83
-msgid "Web Developer, Data Analyst & CMS Manager"
+msgid "Веб-бағдарламалаушы, Data анализдеуші & CMS басқарушы"
 msgstr ""
 
 #: .\main\templates\index.html:98
-msgid "FrontEnd Developer"
+msgid "FrontEnd Бағдарламалаушы"
 msgstr ""
 
 #: .\main\templates\index.html:99
-msgid "/..worked with ReactJS, Tailwind CSS and Bootstrap5../"
+msgid "/..ReactJS, Tailwind CSS және Bootstrap5-пен жұмыс жасадым../"
 msgstr ""
 
 #: .\main\templates\index.html:107
-msgid "BackEnd Developer"
+msgid "BackEnd Бағдарламалаушы"
+msgstr ""
+
+#: .\main\templates\index.html:108
+msgid ""
+"/..Python Django, DRF, Celery, PostgreSQL, "
+"Docker құралдарымен жұмыс жасау тәжірибем бар../"
 msgstr ""
 
 #: .\main\templates\index.html:117
-msgid "Data Analyst"
+msgid "Data Анализдеуші"
+msgstr ""
+
+#: .\main\templates\index.html:117
+msgid ""
+"/..Numpy, panda library, D3 Data Visualization, SQL, "
+"Power BI құралдары арқылы жасаған оқу жобаларым бар../"
 msgstr ""
 
 #: .\main\templates\index.html:129
-msgid "My projects"
+msgid "Менің жобаларым"
 msgstr ""
 
 #: .\main\templates\index.html:169
 msgid ""
-"If you interested in for more about my works you can touch with me by these.."
+"Егер менімен жұмыс жасағыңыз келсе, мына байланыс жүйелерін қолданыңыз.."
 msgstr ""
 
 #: .\main\templates\index.html:180
-msgid "/..about my latest news, stories../"
+msgid "/..менің соңғы жаңалықтарым../"
 msgstr ""
 
 #: .\main\templates\index.html:188
-msgid "/..my latest works, reviews, codes../"
+msgid "/..менің соңғы жұмыстарым, жобаларым../"
 msgstr ""
 
 #: .\main\templates\index.html:196
-msgid "/..my career, my working and study history and certificates../"
+msgid "/..менің мансабым, менің оқыған оқу орындары, сертификаттар және т.б../"
 msgstr ""
 
 #: .\main\templates\index.html:204
-msgid "/..for private, for chosen ones"
+msgid "/..жеке, таңдаулылар үшін"
 msgstr ""
 
 #: .\main\templates\index.html:215
-msgid "All rights reserved"
+msgid "Барлық құқықтар сақталған"
 msgstr ""
 
 #: .\main\templates\index.html:218
-msgid "projects"
+msgid "жобалар"
 msgstr ""
 
 #: .\main\templates\index.html:227
-msgid "resources"
+msgid "ресурстер"
 msgstr ""
 
 #: .\main\templates\index.html:236
-msgid "about"
+msgid "тағы да"
 msgstr ""

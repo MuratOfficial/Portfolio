@@ -18,31 +18,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .\main\templates\index.html:46
-msgid "Light"
+msgid "Ярко"
 msgstr ""
 
 #: .\main\templates\index.html:53
-msgid "Dark"
+msgid "Темно"
 msgstr ""
 
 #: .\main\templates\index.html:60
-msgid "Auto"
+msgid "Aвто"
 msgstr ""
 
 #: .\main\templates\index.html:70
-msgid "Home"
+msgid "Главная"
 msgstr ""
 
 #: .\main\templates\index.html:71 .\main\templates\index.html:92
-msgid "Expertise"
+msgid "Экспертиза"
 msgstr ""
 
 #: .\main\templates\index.html:72
-msgid "Projects"
+msgid "Проекты"
 msgstr ""
 
 #: .\main\templates\index.html:73 .\main\templates\index.html:165
-msgid "Contacts"
+msgid "Контакты"
 msgstr ""
 
 #: .\main\templates\index.html:81
@@ -50,62 +50,74 @@ msgid "Murat Toimet"
 msgstr ""
 
 #: .\main\templates\index.html:83
-msgid "Web Developer, Data Analyst & CMS Manager"
+msgid "Web Разработчик, Data Аналитик & CMS Менеджер"
 msgstr ""
 
 #: .\main\templates\index.html:98
-msgid "FrontEnd Developer"
+msgid "FrontEnd Разработчик"
 msgstr ""
 
 #: .\main\templates\index.html:99
-msgid "/..worked with ReactJS, Tailwind CSS and Bootstrap5../"
+msgid "/..работал с ReactJS, Tailwind CSS и Bootstrap5../"
 msgstr ""
 
 #: .\main\templates\index.html:107
-msgid "BackEnd Developer"
+msgid "BackEnd Разработчик"
+msgstr ""
+
+#: .\main\templates\index.html:108
+msgid ""
+"/..есть опыт работе по проектам на Python Django, DRF, Celery, PostgreSQL, "
+"Docker../"
 msgstr ""
 
 #: .\main\templates\index.html:117
 msgid "Data Analyst"
 msgstr ""
 
+#: .\main\templates\index.html:117
+msgid ""
+"/..делал учебные проекты на Numpy, panda library, D3 Data Visualization, SQL, "
+"Power BI../"
+msgstr ""
+
 #: .\main\templates\index.html:129
-msgid "My projects"
+msgid "Мои проекты"
 msgstr ""
 
 #: .\main\templates\index.html:169
 msgid ""
-"If you interested in for more about my works you can touch with me by these.."
+"Если вы заинтересованы узнать больше, тут мои контакты.."
 msgstr ""
 
 #: .\main\templates\index.html:180
-msgid "/..about my latest news, stories../"
+msgid "/..о моих последних новостях../"
 msgstr ""
 
 #: .\main\templates\index.html:188
-msgid "/..my latest works, reviews, codes../"
+msgid "/..мои последние работы, ревью и код../"
 msgstr ""
 
 #: .\main\templates\index.html:196
-msgid "/..my career, my working and study history and certificates../"
+msgid "/..моя карьера, мой учебный и рабочий опыт, сертификаты и т.п../"
 msgstr ""
 
 #: .\main\templates\index.html:204
-msgid "/..for private, for chosen ones"
+msgid "/..для личного, для избранных"
 msgstr ""
 
 #: .\main\templates\index.html:215
-msgid "All rights reserved"
+msgid "Все правы защищены"
 msgstr ""
 
 #: .\main\templates\index.html:218
-msgid "projects"
+msgid "проекты"
 msgstr ""
 
 #: .\main\templates\index.html:227
-msgid "resources"
+msgid "ресурсы"
 msgstr ""
 
 #: .\main\templates\index.html:236
-msgid "about"
+msgid "еще"
 msgstr ""

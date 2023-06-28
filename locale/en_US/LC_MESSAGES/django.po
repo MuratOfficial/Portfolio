@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-29 00:26+0600\n"
+"POT-Creation-Date: 2023-06-29 00:53+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Projects"
 msgstr ""
 
-#: .\main\templates\index.html:73 .\main\templates\index.html:165
+#: .\main\templates\index.html:73 .\main\templates\index.html:163
 msgid "Contacts"
 msgstr ""
 
@@ -65,47 +65,59 @@ msgstr ""
 msgid "BackEnd Developer"
 msgstr ""
 
-#: .\main\templates\index.html:117
+#: .\main\templates\index.html:108
+msgid ""
+"/..have experience of working with Python Django, DRF, Celery, PostgreSQL, "
+"Docker../"
+msgstr ""
+
+#: .\main\templates\index.html:116
 msgid "Data Analyst"
 msgstr ""
 
-#: .\main\templates\index.html:129
+#: .\main\templates\index.html:117
+msgid ""
+"/..did study projects with Numpy, panda library, D3 Data Visualization, SQL, "
+"Power BI../"
+msgstr ""
+
+#: .\main\templates\index.html:127
 msgid "My projects"
 msgstr ""
 
-#: .\main\templates\index.html:169
+#: .\main\templates\index.html:167
 msgid ""
 "If you interested in for more about my works you can touch with me by these.."
 msgstr ""
 
-#: .\main\templates\index.html:180
+#: .\main\templates\index.html:178
 msgid "/..about my latest news, stories../"
 msgstr ""
 
-#: .\main\templates\index.html:188
+#: .\main\templates\index.html:186
 msgid "/..my latest works, reviews, codes../"
 msgstr ""
 
-#: .\main\templates\index.html:196
+#: .\main\templates\index.html:194
 msgid "/..my career, my working and study history and certificates../"
 msgstr ""
 
-#: .\main\templates\index.html:204
+#: .\main\templates\index.html:202
 msgid "/..for private, for chosen ones"
 msgstr ""
 
-#: .\main\templates\index.html:215
+#: .\main\templates\index.html:213
 msgid "All rights reserved"
 msgstr ""
 
-#: .\main\templates\index.html:218
+#: .\main\templates\index.html:216
 msgid "projects"
 msgstr ""
 
-#: .\main\templates\index.html:227
+#: .\main\templates\index.html:225
 msgid "resources"
 msgstr ""
 
-#: .\main\templates\index.html:236
+#: .\main\templates\index.html:234
 msgid "about"
 msgstr ""
