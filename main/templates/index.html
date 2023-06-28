@@ -1,4 +1,4 @@
-{% load static %}
+{% load static cache %}
 
 <!doctype html>
 <html>
@@ -67,10 +67,10 @@
   <div class="container">
     <header class="d-flex justify-content-center py-3 ">
       <ul class="nav nav-pills">
-        <li class="nav-item text-lowercase"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item text-lowercase"><a href="#expertise" class="nav-link">Expertise</a></li>
-        <li class="nav-item text-lowercase"><a href="#projects" class="nav-link">Projects</a></li>
-        <li class="nav-item text-lowercase"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item text-lowercase font-monospace"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item text-lowercase font-monospace"><a href="#expertise" class="nav-link">Expertise</a></li>
+        <li class="nav-item text-lowercase font-monospace"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item text-lowercase font-monospace"><a href="#contacts" class="nav-link">Contacts</a></li>
       </ul>
     </header>
   </div>
@@ -88,7 +88,7 @@
       </div>
 
     <!-- Expertise block -->
-      <div class="container vh-100 px-4 py-5" id="custom-cards">
+      <div class="container vh-100 px-4 py-5 mb-4" id="custom-cards">
         <h2 class="pb-2 border-bottom text-center display-4 fw-bold">Expertise</h2>
 
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" id="expertise">
@@ -137,7 +137,9 @@
     <div class="row mt-4 ms-4 me-4" data-masonry='{"percentPosition": true }' id="masonry">
 
     {% if projects %}
+      {% cache 300 projects %}
       {% for project in projects %}
+
       <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card">
             <img class="bd-placeholder-img card-img-top" src="/media/{{ project.image }}">
@@ -148,7 +150,9 @@
           </div>
         </div>
       </div>
+
       {% endfor %}
+      {% endcache %}
     {% endif %}
     </div>
 
@@ -238,6 +242,7 @@
 
 
   <script src="{% static 'js/bootstrap.bundle.min.js' %}"  crossorigin="anonymous"></script>
+  <script src="{% static 'js/masonry.pkgd.js' %}"></script>
 
 </body>
 </html>
