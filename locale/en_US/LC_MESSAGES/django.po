@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-29 00:53+0600\n"
+"POT-Creation-Date: 2023-06-29 01:07+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,7 +41,7 @@ msgstr ""
 msgid "Projects"
 msgstr ""
 
-#: .\main\templates\index.html:73 .\main\templates\index.html:163
+#: .\main\templates\index.html:73 .\main\templates\index.html:161
 msgid "Contacts"
 msgstr ""
 
@@ -85,39 +85,47 @@ msgstr ""
 msgid "My projects"
 msgstr ""
 
-#: .\main\templates\index.html:167
+#: .\main\templates\index.html:129
+msgid ""
+"/..my working experience starts by making Commercial and Business projects "
+"as a Business Analyst, UI/UX Designer and Product Manager. After that I made "
+"a lot of solo projects on Fiver, Upwork and for small commercial companies "
+"as a FullStack Developer. There are some of them../"
+msgstr ""
+
+#: .\main\templates\index.html:165
 msgid ""
 "If you interested in for more about my works you can touch with me by these.."
 msgstr ""
 
-#: .\main\templates\index.html:178
+#: .\main\templates\index.html:176
 msgid "/..about my latest news, stories../"
 msgstr ""
 
-#: .\main\templates\index.html:186
+#: .\main\templates\index.html:184
 msgid "/..my latest works, reviews, codes../"
 msgstr ""
 
-#: .\main\templates\index.html:194
+#: .\main\templates\index.html:192
 msgid "/..my career, my working and study history and certificates../"
 msgstr ""
 
-#: .\main\templates\index.html:202
+#: .\main\templates\index.html:200
 msgid "/..for private, for chosen ones"
 msgstr ""
 
-#: .\main\templates\index.html:213
+#: .\main\templates\index.html:211
 msgid "All rights reserved"
 msgstr ""
 
-#: .\main\templates\index.html:216
+#: .\main\templates\index.html:214
 msgid "projects"
 msgstr ""
 
-#: .\main\templates\index.html:225
+#: .\main\templates\index.html:223
 msgid "resources"
 msgstr ""
 
-#: .\main\templates\index.html:234
+#: .\main\templates\index.html:232
 msgid "about"
 msgstr ""

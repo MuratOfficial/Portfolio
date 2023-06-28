@@ -71,7 +71,7 @@ msgid ""
 "Docker құралдарымен жұмыс жасау тәжірибем бар../"
 msgstr ""
 
-#: .\main\templates\index.html:117
+#: .\main\templates\index.html:116
 msgid "Data Анализдеуші"
 msgstr ""
 
@@ -81,43 +81,51 @@ msgid ""
 "Power BI құралдары арқылы жасаған оқу жобаларым бар../"
 msgstr ""
 
-#: .\main\templates\index.html:129
+#: .\main\templates\index.html:127
 msgid "Менің жобаларым"
 msgstr ""
 
-#: .\main\templates\index.html:169
+#: .\main\templates\index.html:129
+msgid ""
+"/..менің жұмыс өтілімім коммерциялыө және бизнес жобаларды "
+"Бизнес Анализдеуші, UI/UX Дизайнер және Product Менеджер ретінде басталды. Одан соң "
+" Fiver, Upwork және кіші компанияларға Fullstack бағдарламалаушы ретінде м "
+"көптеген жоба жасады. Міне осылардың мысалы../"
+msgstr ""
+
+#: .\main\templates\index.html:165
 msgid ""
 "Егер менімен жұмыс жасағыңыз келсе, мына байланыс жүйелерін қолданыңыз.."
 msgstr ""
 
-#: .\main\templates\index.html:180
+#: .\main\templates\index.html:76
 msgid "/..менің соңғы жаңалықтарым../"
 msgstr ""
 
-#: .\main\templates\index.html:188
+#: .\main\templates\index.html:184
 msgid "/..менің соңғы жұмыстарым, жобаларым../"
 msgstr ""
 
-#: .\main\templates\index.html:196
+#: .\main\templates\index.html:192
 msgid "/..менің мансабым, менің оқыған оқу орындары, сертификаттар және т.б../"
 msgstr ""
 
-#: .\main\templates\index.html:204
+#: .\main\templates\index.html:200
 msgid "/..жеке, таңдаулылар үшін"
 msgstr ""
 
-#: .\main\templates\index.html:215
+#: .\main\templates\index.html:211
 msgid "Барлық құқықтар сақталған"
 msgstr ""
 
-#: .\main\templates\index.html:218
+#: .\main\templates\index.html:214
 msgid "жобалар"
 msgstr ""
 
-#: .\main\templates\index.html:227
+#: .\main\templates\index.html:223
 msgid "ресурстер"
 msgstr ""
 
-#: .\main\templates\index.html:236
+#: .\main\templates\index.html:232
 msgid "тағы да"
 msgstr ""
