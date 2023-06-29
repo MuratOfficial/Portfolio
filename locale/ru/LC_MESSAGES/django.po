@@ -1,9 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -17,115 +11,140 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: .\core\settings.py:141
+msgid "English"
+msgstr "Английский"
+
+#: .\core\settings.py:142
+msgid "Kazakh"
+msgstr "Казахский"
+
+#: .\core\settings.py:143
+msgid "Russian"
+msgstr "Русский"
+
 #: .\main\templates\index.html:48
-msgid "Ярко"
-msgstr ""
+msgid "Light"
+msgstr "Ярко"
 
 #: .\main\templates\index.html:55
-msgid "Темно"
-msgstr ""
+msgid "Dark"
+msgstr "Темно"
 
 #: .\main\templates\index.html:62
-msgid "Aвто"
-msgstr ""
+msgid "Auto"
+msgstr "Aвто"
 
 #: .\main\templates\index.html:72
-msgid "Главная"
-msgstr ""
+msgid "Home"
+msgstr "Главная"
 
-#: .\main\templates\index.html:71 .\main\templates\index.html:110
-msgid "Экспертиза"
-msgstr ""
+#: .\main\templates\index.html:73 .\main\templates\index.html:113
+msgid "Expertise"
+msgstr "Экспертиза"
 
 #: .\main\templates\index.html:74
-msgid "Проекты"
-msgstr ""
+msgid "Projects"
+msgstr "Проекты"
 
-#: .\main\templates\index.html:75 .\main\templates\index.html:179
-msgid "Контакты"
-msgstr ""
+#: .\main\templates\index.html:75 .\main\templates\index.html:182
+msgid "Contacts"
+msgstr "Контакты"
 
-#: .\main\templates\index.html:99
+#: .\main\templates\index.html:78
+msgid "Language"
+msgstr "Языки"
+
+#: .\main\templates\index.html:102
 msgid "Murat Toimet"
-msgstr ""
+msgstr "Murat Toimet"
 
-#: .\main\templates\index.html:101
-msgid "Web Разработчик, Data Аналитик & CMS Менеджер"
-msgstr ""
+#: .\main\templates\index.html:104
+msgid "Web Developer, Data Analyst & CMS Manager"
+msgstr "Web Разработчик, Data Аналитик & CMS Менеджер"
 
-#: .\main\templates\index.html:116
-msgid "FrontEnd Разработчик"
-msgstr ""
+#: .\main\templates\index.html:119
+msgid "FrontEnd Developer"
+msgstr "FrontEnd Разработчик"
 
-#: .\main\templates\index.html:117
-msgid "/..работал с ReactJS, Tailwind CSS и Bootstrap5../"
-msgstr ""
+#: .\main\templates\index.html:120
+msgid "/..worked with ReactJS, Tailwind CSS and Bootstrap5../"
+msgstr "/..работал с ReactJS, Tailwind CSS и Bootstrap5../"
 
-#: .\main\templates\index.html:125
-msgid "BackEnd Разработчик"
-msgstr ""
+#: .\main\templates\index.html:128
+msgid "BackEnd Developer"
+msgstr "BackEnd Разработчик"
 
-#: .\main\templates\index.html:126
+#: .\main\templates\index.html:129
 msgid ""
-"/..есть опыт работе по проектам на Python Django, DRF, Celery, PostgreSQL, "
+"/..have experience of working with Python Django, DRF, Celery, PostgreSQL, "
 "Docker../"
 msgstr ""
+"/..есть опыт работе по проектам на Python Django, DRF, Celery, PostgreSQL, "
+"Docker../"
 
-#: .\main\templates\index.html:134
+#: .\main\templates\index.html:137
 msgid "Data Analyst"
-msgstr ""
+msgstr "Data Aналитик"
 
-#: .\main\templates\index.html:135
+#: .\main\templates\index.html:138
 msgid ""
-"/..делал учебные проекты на Numpy, panda library, D3 Data Visualization, SQL, "
+"/..did study projects with Numpy, panda library, D3 Data Visualization, SQL, "
 "Power BI../"
 msgstr ""
+"/..делал учебные проекты на Numpy, panda library, D3 Data Visualization, SQL, "
+"Power BI../"
 
-#: .\main\templates\index.html:145
-msgid "Мои проекты"
-msgstr ""
+#: .\main\templates\index.html:148
+msgid "My projects"
+msgstr "Мои проекты"
 
-#: .\main\templates\index.html:147
+#: .\main\templates\index.html:150
 msgid ""
+"/..my working experience starts by making Commercial and Business projects "
+"as a Business Analyst, UI/UX Designer and Product Manager. After that I made "
+"a lot of solo projects on Fiver, Upwork and for small commercial companies "
+"as a FullStack Developer. There are some of them../"
+msgstr ""
 "/..мой карьерный опыт начинался в качестве Бизнес-Аналитика и "
 "UI/UX Дизайнера, Продакт Менеджера. После этого я много сделал "
 "отельных проектов на Fiver, Upwork и для маленких коммерческих компании "
 "в качестве FullStack Разработчик. Здесь некоторые проекты../"
-msgstr ""
 
-#: .\main\templates\index.html:183
+#: .\main\templates\index.html:186
 msgid ""
+"If you interested in for more about my works you can touch with me by these.."
+msgstr ""
 "Если вы заинтересованы узнать больше, тут мои контакты.."
-msgstr ""
 
-#: .\main\templates\index.html:194
-msgid "/..о моих последних новостях../"
-msgstr ""
+#: .\main\templates\index.html:197
+msgid "/..about my latest news, stories../"
+msgstr "/..о моих последних новостях../"
 
-#: .\main\templates\index.html:202
-msgid "/..мои последние работы, ревью и код../"
-msgstr ""
+#: .\main\templates\index.html:205
+msgid "/..my latest works, reviews, codes../"
+msgstr "/..мои последние работы, ревью и код../"
 
-#: .\main\templates\index.html:210
-msgid "/..моя карьера, мой учебный и рабочий опыт, сертификаты и т.п../"
-msgstr ""
+#: .\main\templates\index.html:213
+msgid "/..my career, my working and study history and certificates../"
+msgstr "/..моя карьера, мой учебный и рабочий опыт, сертификаты и т.п../"
 
-#: .\main\templates\index.html:218
-msgid "/..для личного, для избранных"
-msgstr ""
-
-#: .\main\templates\index.html:229
-msgid "Все правы защищены"
-msgstr ""
+#: .\main\templates\index.html:221
+msgid "/..for private, for chosen ones"
+msgstr "/..для личного, для избранных"
 
 #: .\main\templates\index.html:232
-msgid "проекты"
-msgstr ""
+msgid "All rights reserved"
+msgstr "Все правы защищены"
 
-#: .\main\templates\index.html:241
-msgid "ресурсы"
-msgstr ""
+#: .\main\templates\index.html:235
+msgid "projects"
+msgstr "проекты"
 
-#: .\main\templates\index.html:250
-msgid "еще"
-msgstr ""
+#: .\main\templates\index.html:244
+msgid "resources"
+msgstr "ресурсы"
+
+#: .\main\templates\index.html:253
+msgid "about"
+msgstr "еще"

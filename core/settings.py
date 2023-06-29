@@ -48,14 +48,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'debug_toolbar',
+    'main',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'debug_toolbar',
-    'main',
+
+
 ]
 
 MIDDLEWARE = [
@@ -76,7 +78,10 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            join(BASE_DIR, 'core', 'templates'),
+            (
+                BASE_DIR / 'main.templates'
+            ),
+
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -130,21 +135,25 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
+from django.utils.translation import gettext_lazy as _
+
 LANGUAGES = (
-    ('en-us', 'English (US)'),
-    ('kk', 'Kazakh'),
-    ('ru', 'Russian'),
+    ('en', _('English')),
+    ('kk', _('Kazakh')),
+    ('ru', _('Russian')),
 )
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
-LOCALE_PATH = (
-    join(BASE_DIR, 'core', 'locale')
+LOCALE_PATHS = (
+    BASE_DIR / 'locale/',
 )
 
 TIME_ZONE = 'UTC'
 
 USE_I18N = True
+
+USE_L10N = True
 
 USE_TZ = True
 
