@@ -1,7 +1,9 @@
 {% load static cache i18n %}
 
+{% get_current_language as LANGUAGE_CODE %}
+
 <!doctype html>
-<html>
+<html lang="{{ LANGUAGE_CODE }}">
 <head><script src="{% static 'js/color-modes.js' %}"></script>
   <!-- ... -->
   <meta charset="UTF-8" />
@@ -9,6 +11,7 @@
   <link href="{% static 'scc/styles.css' %}" rel="stylesheet">
   <link href="{% static 'scc/bootstrap.min.css' %}" rel="stylesheet" crossorigin="anonymous">
   <link href="{% static 'js/' %}">
+  <script src="{% url 'javascript-catalog' %}"></script>
   <title>🐋 Murat Toimet Portfolio</title>
 </head>
 <body>
@@ -65,14 +68,30 @@
       </div>
 
   <div class="container">
-    <header class="d-flex justify-content-center py-3 ">
-      <ul class="nav nav-pills">
+    <header class="d-flex py-3 justify-content-center">
+      <ul class="nav nav-pills ">
         <li class="nav-item text-lowercase font-monospace"><a href="#home" class="nav-link active" aria-current="page">{% translate 'Home' %}</a></li>
         <li class="nav-item text-lowercase font-monospace"><a href="#expertise" class="nav-link">{% translate 'Expertise' %}</a></li>
         <li class="nav-item text-lowercase font-monospace"><a href="#projects" class="nav-link">{% translate 'Projects' %}</a></li>
         <li class="nav-item text-lowercase font-monospace"><a href="#contacts" class="nav-link">{% translate 'Contacts' %}</a></li>
+        <li class="nav-item text-lowercase font-monospace">
+          <form action="{% url 'set_language' %}" method="post" style="text-align: center;">
+              {% csrf_token %}
+              <input name="next" type="hidden" value="/">
+              <select name="language" onchange="this.form.submit()" class="nav-item text-lowercase font-monospace nav-link">
+                  {% get_available_languages as LANGUAGES %}
+                  {% get_language_info_list for LANGUAGES as languages %}
+                  {% for language in languages %}
+                  <option value="{{ language.code }}" {% if language.code == LANGUAGE_CODE %} selected{% endif %}>
+                      {{ language.name_local }} ({{ language.code }})
+                  </option>
+                  {% endfor %}
+              </select>
+          </form>
+        </li>
       </ul>
     </header>
+
   </div>
 
   <main>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-29 01:07+0600\n"
+"POT-Creation-Date: 2023-06-29 13:25+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,75 +17,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\main\templates\index.html:46
+#: .\main\templates\index.html:48
 msgid "Light"
 msgstr ""
 
-#: .\main\templates\index.html:53
+#: .\main\templates\index.html:55
 msgid "Dark"
 msgstr ""
 
-#: .\main\templates\index.html:60
+#: .\main\templates\index.html:62
 msgid "Auto"
 msgstr ""
 
-#: .\main\templates\index.html:70
+#: .\main\templates\index.html:72
 msgid "Home"
 msgstr ""
 
-#: .\main\templates\index.html:71 .\main\templates\index.html:92
+#: .\main\templates\index.html:73 .\main\templates\index.html:110
 msgid "Expertise"
 msgstr ""
 
-#: .\main\templates\index.html:72
+#: .\main\templates\index.html:74
 msgid "Projects"
 msgstr ""
 
-#: .\main\templates\index.html:73 .\main\templates\index.html:161
+#: .\main\templates\index.html:75 .\main\templates\index.html:179
 msgid "Contacts"
 msgstr ""
 
-#: .\main\templates\index.html:81
+#: .\main\templates\index.html:99
 msgid "Murat Toimet"
 msgstr ""
 
-#: .\main\templates\index.html:83
+#: .\main\templates\index.html:101
 msgid "Web Developer, Data Analyst & CMS Manager"
 msgstr ""
 
-#: .\main\templates\index.html:98
+#: .\main\templates\index.html:116
 msgid "FrontEnd Developer"
 msgstr ""
 
-#: .\main\templates\index.html:99
+#: .\main\templates\index.html:117
 msgid "/..worked with ReactJS, Tailwind CSS and Bootstrap5../"
 msgstr ""
 
-#: .\main\templates\index.html:107
+#: .\main\templates\index.html:125
 msgid "BackEnd Developer"
 msgstr ""
 
-#: .\main\templates\index.html:108
+#: .\main\templates\index.html:126
 msgid ""
 "/..have experience of working with Python Django, DRF, Celery, PostgreSQL, "
 "Docker../"
 msgstr ""
 
-#: .\main\templates\index.html:116
+#: .\main\templates\index.html:134
 msgid "Data Analyst"
 msgstr ""
 
-#: .\main\templates\index.html:117
+#: .\main\templates\index.html:135
 msgid ""
 "/..did study projects with Numpy, panda library, D3 Data Visualization, SQL, "
 "Power BI../"
 msgstr ""
 
-#: .\main\templates\index.html:127
+#: .\main\templates\index.html:145
 msgid "My projects"
 msgstr ""
 
-#: .\main\templates\index.html:129
+#: .\main\templates\index.html:147
 msgid ""
 "/..my working experience starts by making Commercial and Business projects "
 "as a Business Analyst, UI/UX Designer and Product Manager. After that I made "
@@ -93,39 +93,39 @@ msgid ""
 "as a FullStack Developer. There are some of them../"
 msgstr ""
 
-#: .\main\templates\index.html:165
+#: .\main\templates\index.html:183
 msgid ""
 "If you interested in for more about my works you can touch with me by these.."
 msgstr ""
 
-#: .\main\templates\index.html:176
+#: .\main\templates\index.html:194
 msgid "/..about my latest news, stories../"
 msgstr ""
 
-#: .\main\templates\index.html:184
+#: .\main\templates\index.html:202
 msgid "/..my latest works, reviews, codes../"
 msgstr ""
 
-#: .\main\templates\index.html:192
+#: .\main\templates\index.html:210
 msgid "/..my career, my working and study history and certificates../"
 msgstr ""
 
-#: .\main\templates\index.html:200
+#: .\main\templates\index.html:218
 msgid "/..for private, for chosen ones"
 msgstr ""
 
-#: .\main\templates\index.html:211
+#: .\main\templates\index.html:229
 msgid "All rights reserved"
 msgstr ""
 
-#: .\main\templates\index.html:214
+#: .\main\templates\index.html:232
 msgid "projects"
 msgstr ""
 
-#: .\main\templates\index.html:223
+#: .\main\templates\index.html:241
 msgid "resources"
 msgstr ""
 
-#: .\main\templates\index.html:232
+#: .\main\templates\index.html:250
 msgid "about"
 msgstr ""

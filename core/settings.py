@@ -132,7 +132,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGES = (
     ('en-us', 'English (US)'),
-    ('kz', 'Kazakh'),
+    ('kk', 'Kazakh'),
     ('ru', 'Russian'),
 )
 

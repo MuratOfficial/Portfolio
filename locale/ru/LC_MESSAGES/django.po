@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-29 00:26+0600\n"
+"POT-Creation-Date: 2023-06-29 13:11+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,75 +17,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\main\templates\index.html:46
+#: .\main\templates\index.html:48
 msgid "Ярко"
 msgstr ""
 
-#: .\main\templates\index.html:53
+#: .\main\templates\index.html:55
 msgid "Темно"
 msgstr ""
 
-#: .\main\templates\index.html:60
+#: .\main\templates\index.html:62
 msgid "Aвто"
 msgstr ""
 
-#: .\main\templates\index.html:70
+#: .\main\templates\index.html:72
 msgid "Главная"
 msgstr ""
 
-#: .\main\templates\index.html:71 .\main\templates\index.html:92
+#: .\main\templates\index.html:71 .\main\templates\index.html:110
 msgid "Экспертиза"
 msgstr ""
 
-#: .\main\templates\index.html:72
+#: .\main\templates\index.html:74
 msgid "Проекты"
 msgstr ""
 
-#: .\main\templates\index.html:73 .\main\templates\index.html:161
+#: .\main\templates\index.html:75 .\main\templates\index.html:179
 msgid "Контакты"
 msgstr ""
 
-#: .\main\templates\index.html:81
+#: .\main\templates\index.html:99
 msgid "Murat Toimet"
 msgstr ""
 
-#: .\main\templates\index.html:83
+#: .\main\templates\index.html:101
 msgid "Web Разработчик, Data Аналитик & CMS Менеджер"
 msgstr ""
 
-#: .\main\templates\index.html:98
+#: .\main\templates\index.html:116
 msgid "FrontEnd Разработчик"
 msgstr ""
 
-#: .\main\templates\index.html:99
+#: .\main\templates\index.html:117
 msgid "/..работал с ReactJS, Tailwind CSS и Bootstrap5../"
 msgstr ""
 
-#: .\main\templates\index.html:107
+#: .\main\templates\index.html:125
 msgid "BackEnd Разработчик"
 msgstr ""
 
-#: .\main\templates\index.html:108
+#: .\main\templates\index.html:126
 msgid ""
 "/..есть опыт работе по проектам на Python Django, DRF, Celery, PostgreSQL, "
 "Docker../"
 msgstr ""
 
-#: .\main\templates\index.html:116
+#: .\main\templates\index.html:134
 msgid "Data Analyst"
 msgstr ""
 
-#: .\main\templates\index.html:117
+#: .\main\templates\index.html:135
 msgid ""
 "/..делал учебные проекты на Numpy, panda library, D3 Data Visualization, SQL, "
 "Power BI../"
 msgstr ""
 
-#: .\main\templates\index.html:127
+#: .\main\templates\index.html:145
 msgid "Мои проекты"
 msgstr ""
 
-#: .\main\templates\index.html:129
+#: .\main\templates\index.html:147
 msgid ""
 "/..мой карьерный опыт начинался в качестве Бизнес-Аналитика и "
 "UI/UX Дизайнера, Продакт Менеджера. После этого я много сделал "
@@ -93,39 +93,39 @@ msgid ""
 "в качестве FullStack Разработчик. Здесь некоторые проекты../"
 msgstr ""
 
-#: .\main\templates\index.html:165
+#: .\main\templates\index.html:183
 msgid ""
 "Если вы заинтересованы узнать больше, тут мои контакты.."
 msgstr ""
 
-#: .\main\templates\index.html:176
+#: .\main\templates\index.html:194
 msgid "/..о моих последних новостях../"
 msgstr ""
 
-#: .\main\templates\index.html:184
+#: .\main\templates\index.html:202
 msgid "/..мои последние работы, ревью и код../"
 msgstr ""
 
-#: .\main\templates\index.html:192
+#: .\main\templates\index.html:210
 msgid "/..моя карьера, мой учебный и рабочий опыт, сертификаты и т.п../"
 msgstr ""
 
-#: .\main\templates\index.html:200
+#: .\main\templates\index.html:218
 msgid "/..для личного, для избранных"
 msgstr ""
 
-#: .\main\templates\index.html:211
+#: .\main\templates\index.html:229
 msgid "Все правы защищены"
 msgstr ""
 
-#: .\main\templates\index.html:214
+#: .\main\templates\index.html:232
 msgid "проекты"
 msgstr ""
 
-#: .\main\templates\index.html:223
+#: .\main\templates\index.html:241
 msgid "ресурсы"
 msgstr ""
 
-#: .\main\templates\index.html:232
+#: .\main\templates\index.html:250
 msgid "еще"
 msgstr ""

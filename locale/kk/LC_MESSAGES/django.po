@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-29 00:26+0600\n"
+"POT-Creation-Date: 2023-06-29 13:25+0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,75 +17,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: .\main\templates\index.html:46
+#: .\main\templates\index.html:48
 msgid "Ашық"
 msgstr ""
 
-#: .\main\templates\index.html:53
+#: .\main\templates\index.html:55
 msgid "Түң"
 msgstr ""
 
-#: .\main\templates\index.html:60
+#: .\main\templates\index.html:62
 msgid "Авто"
 msgstr ""
 
-#: .\main\templates\index.html:70
+#: .\main\templates\index.html:72
 msgid "Бастапқы"
 msgstr ""
 
-#: .\main\templates\index.html:71 .\main\templates\index.html:92
+#: .\main\templates\index.html:73 .\main\templates\index.html:110
 msgid "Қабілет"
 msgstr ""
 
-#: .\main\templates\index.html:72
+#: .\main\templates\index.html:74
 msgid "Жобалар"
 msgstr ""
 
-#: .\main\templates\index.html:73 .\main\templates\index.html:165
+#: .\main\templates\index.html:75 .\main\templates\index.html:179
 msgid "Байланыс"
 msgstr ""
 
-#: .\main\templates\index.html:81
+#: .\main\templates\index.html:99
 msgid "Murat Toimet"
 msgstr ""
 
-#: .\main\templates\index.html:83
+#: .\main\templates\index.html:101
 msgid "Веб-бағдарламалаушы, Data анализдеуші & CMS басқарушы"
 msgstr ""
 
-#: .\main\templates\index.html:98
+#: .\main\templates\index.html:116
 msgid "FrontEnd Бағдарламалаушы"
 msgstr ""
 
-#: .\main\templates\index.html:99
+#: .\main\templates\index.html:117
 msgid "/..ReactJS, Tailwind CSS және Bootstrap5-пен жұмыс жасадым../"
 msgstr ""
 
-#: .\main\templates\index.html:107
+#: .\main\templates\index.html:125
 msgid "BackEnd Бағдарламалаушы"
 msgstr ""
 
-#: .\main\templates\index.html:108
+#: .\main\templates\index.html:126
 msgid ""
 "/..Python Django, DRF, Celery, PostgreSQL, "
 "Docker құралдарымен жұмыс жасау тәжірибем бар../"
 msgstr ""
 
-#: .\main\templates\index.html:116
+#: .\main\templates\index.html:134
 msgid "Data Анализдеуші"
 msgstr ""
 
-#: .\main\templates\index.html:117
+#: .\main\templates\index.html:135
 msgid ""
 "/..Numpy, panda library, D3 Data Visualization, SQL, "
 "Power BI құралдары арқылы жасаған оқу жобаларым бар../"
 msgstr ""
 
-#: .\main\templates\index.html:127
+#: .\main\templates\index.html:145
 msgid "Менің жобаларым"
 msgstr ""
 
-#: .\main\templates\index.html:129
+#: .\main\templates\index.html:147
 msgid ""
 "/..менің жұмыс өтілімім коммерциялыө және бизнес жобаларды "
 "Бизнес Анализдеуші, UI/UX Дизайнер және Product Менеджер ретінде басталды. Одан соң "
@@ -93,39 +93,39 @@ msgid ""
 "көптеген жоба жасады. Міне осылардың мысалы../"
 msgstr ""
 
-#: .\main\templates\index.html:165
+#: .\main\templates\index.html:183
 msgid ""
 "Егер менімен жұмыс жасағыңыз келсе, мына байланыс жүйелерін қолданыңыз.."
 msgstr ""
 
-#: .\main\templates\index.html:76
+#: .\main\templates\index.html:194
 msgid "/..менің соңғы жаңалықтарым../"
 msgstr ""
 
-#: .\main\templates\index.html:184
+#: .\main\templates\index.html:202
 msgid "/..менің соңғы жұмыстарым, жобаларым../"
 msgstr ""
 
-#: .\main\templates\index.html:192
+#: .\main\templates\index.html:210
 msgid "/..менің мансабым, менің оқыған оқу орындары, сертификаттар және т.б../"
 msgstr ""
 
-#: .\main\templates\index.html:200
+#: .\main\templates\index.html:218
 msgid "/..жеке, таңдаулылар үшін"
 msgstr ""
 
-#: .\main\templates\index.html:211
+#: .\main\templates\index.html:229
 msgid "Барлық құқықтар сақталған"
 msgstr ""
 
-#: .\main\templates\index.html:214
+#: .\main\templates\index.html:232
 msgid "жобалар"
 msgstr ""
 
-#: .\main\templates\index.html:223
+#: .\main\templates\index.html:241
 msgid "ресурстер"
 msgstr ""
 
-#: .\main\templates\index.html:232
+#: .\main\templates\index.html:250
 msgid "тағы да"
 msgstr ""

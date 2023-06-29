@@ -19,13 +19,23 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path, include
 from main.views import index
+from django.conf.urls.i18n import i18n_patterns
+from django.views.i18n import JavaScriptCatalog
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('main/', include('main.urls', namespace='main')),
-    path('', index, name='index'),
+
     path("__debug__/", include("debug_toolbar.urls")),
+    path('i18n/', include('django.conf.urls.i18n')),
 ]
+
+urlpatterns += i18n_patterns(
+    # Put translatable views here
+    path('', index, name='index'),
+    # Needed for translations in Javascript
+    path('jsi18n/', JavaScriptCatalog.as_view(), name='javascript-catalog'),
+)
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
